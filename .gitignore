@@ -1,0 +1,42 @@
+# Environment
+.env
+.env.*
+.npmrc
+
+# Node
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Dart
+.dart_tool/
+.packages
+build/
+.pub-cache/
+pubspec.lock
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Canopy
+.canopy/
+
+# Claude Code
+.claude/
