@@ -50,7 +50,7 @@ The Cortex SDK provides a unified interface across three platforms:
 
 | Language | Package | Registry |
 |---|---|---|
-| TypeScript / JavaScript | `@nfinitmonkeys/cortex-sdk` | npm |
+| TypeScript / JavaScript | `@Seboj/cortex-sdk` | npm |
 | Python | `nfinitmonkeys-cortex-sdk` | PyPI |
 | Dart / Flutter | `nfinitmonkeys_cortex_sdk` | pub.dev |
 
@@ -63,7 +63,7 @@ All three SDKs share the same API design, method names, and capabilities.
 ### TypeScript / JavaScript
 
 ```bash
-npm install @nfinitmonkeys/cortex-sdk
+npm install @Seboj/cortex-sdk
 ```
 
 Requires Node.js 18+ (uses native `fetch`).
@@ -98,7 +98,7 @@ dart pub get
 ### TypeScript
 
 ```typescript
-import { CortexClient } from '@nfinitmonkeys/cortex-sdk';
+import { CortexClient } from '@Seboj/cortex-sdk';
 
 const cortex = new CortexClient({ apiKey: 'sk-cortex-...' });
 
@@ -1470,7 +1470,7 @@ import {
   RateLimitError,
   NotFoundError,
   TimeoutError,
-} from '@nfinitmonkeys/cortex-sdk';
+} from '@Seboj/cortex-sdk';
 
 try {
   await cortex.chat.completions.create({ ... });
@@ -1619,7 +1619,7 @@ Set `maxRetries: 0` to disable retries entirely.
 
 | SDK | Package Name | Install Command | Status |
 |---|---|---|---|
-| TypeScript | `@nfinitmonkeys/cortex-sdk` | `npm install @nfinitmonkeys/cortex-sdk` | Published v1.1.0 |
+| TypeScript | `@Seboj/cortex-sdk` | `npm install @Seboj/cortex-sdk` | Published v1.1.0 |
 | Python | `nfinitmonkeys-cortex-sdk` | `pip install nfinitmonkeys-cortex-sdk` | Published v1.1.0 |
 | Dart | `nfinitmonkeys_cortex_sdk` | `nfinitmonkeys_cortex_sdk: ^1.0.0` in pubspec.yaml | Published v1.0.0 |
 

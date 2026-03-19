@@ -1,11 +1,11 @@
-# @nfinitmonkeys/cortex-sdk
+# @Seboj/cortex-sdk
 
 Official TypeScript SDK for the Cortex LLM Gateway API.
 
 ## Installation
 
 ```bash
-npm install @nfinitmonkeys/cortex-sdk
+npm install @Seboj/cortex-sdk
 ```
 
 Requires Node.js 18+ (uses native `fetch`).
@@ -13,7 +13,7 @@ Requires Node.js 18+ (uses native `fetch`).
 ## Quick Start
 
 ```typescript
-import { CortexClient } from '@nfinitmonkeys/cortex-sdk';
+import { CortexClient } from '@Seboj/cortex-sdk';
 
 const cortex = new CortexClient({ apiKey: 'sk-cortex-...' });
 
@@ -179,7 +179,7 @@ import {
   ConnectionError,
   NotFoundError,
   ServerError,
-} from '@nfinitmonkeys/cortex-sdk';
+} from '@Seboj/cortex-sdk';
 
 try {
   await cortex.chat.completions.create({ ... });

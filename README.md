@@ -9,11 +9,11 @@ Cortex is a self-hosted, OpenAI-compatible LLM gateway with built-in auth, rate 
 ### TypeScript / JavaScript
 
 ```bash
-npm install @nfinitmonkeys/cortex-sdk
+npm install @Seboj/cortex-sdk
 ```
 
 ```typescript
-import { CortexClient } from '@nfinitmonkeys/cortex-sdk';
+import { CortexClient } from '@Seboj/cortex-sdk';
 
 const cortex = new CortexClient({ apiKey: 'sk-cortex-...' });
 
@@ -182,7 +182,7 @@ API keys are **never** exposed in error messages, logs, or stack traces.
 
 | Package | Registry | Install |
 |---|---|---|
-| [`@nfinitmonkeys/cortex-sdk`](packages/cortex-js/) | npm | `npm install @nfinitmonkeys/cortex-sdk` |
+| [`@Seboj/cortex-sdk`](packages/cortex-js/) | npm | `npm install @Seboj/cortex-sdk` |
 | [`nfinitmonkeys_cortex_sdk`](packages/cortex-dart/) | pub.dev | `nfinitmonkeys_cortex_sdk: ^1.0.0` |
 | [`cortex-sdk`](packages/cortex-python/) | PyPI | `pip install nfinitmonkeys-cortex-sdk` |
 

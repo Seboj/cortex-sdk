@@ -1,9 +1,9 @@
 name: nfinitmonkeys_cortex_sdk
 description: Production-grade Dart/Flutter SDK for the Cortex LLM Gateway API. Supports chat completions, streaming, embeddings, admin operations, and more.
 version: 1.2.0
-homepage: https://github.com/nfinitmonkeys/cortex-sdk
-repository: https://github.com/nfinitmonkeys/cortex-sdk
-issue_tracker: https://github.com/nfinitmonkeys/cortex-sdk/issues
+homepage: https://github.com/Seboj/cortex-sdk
+repository: https://github.com/Seboj/cortex-sdk
+issue_tracker: https://github.com/Seboj/cortex-sdk/issues
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
